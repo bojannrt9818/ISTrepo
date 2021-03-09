@@ -1,0 +1,14 @@
+Fajlovi mogu da se obrišu iz
+repozitorijuma. Ovaj postupak znači
+uklanjanje fajlova sa scene tj. indeksa ali
+istovremeno i njihovo brisanje u
+folderu. Komanda kojom se briše neki fajl
+je:
+ git rm [--cached] file
+ Pogledajmo primer sa pratećim statusima.
+ Ova komanda ima više opcija. Navedimo
+samo opciju –cached. Ovom opcijom se
+fajl izbacuje sa scene tj. ostavlja trag kao
+da je obrisana i na dalje neće biti deo
+sledećih snimanja, ali pri tome fajl se
+neće zaista obrisati. 
